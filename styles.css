@@ -6,9 +6,9 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #231F20;
     background-color: #f8f9fa;
     min-height: 100vh;
     display: flex;
@@ -35,6 +35,20 @@ body {
     border: 1px solid #e1e5e9;
 }
 
+/* Logo */
+.logo-container {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #f05d22;
+}
+
+.logo {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
 /* Company Info */
 .company-info {
     display: flex;
@@ -54,7 +68,6 @@ body {
 
 .arabic-section {
     padding-top: 2rem;
-    font-family: 'Noto Sans Arabic', sans-serif;
 }
 
 /* Company Names */
@@ -62,7 +75,7 @@ body {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
-    color: #2c3e50;
+    color: #f05d22;
     line-height: 1.2;
 }
 
@@ -76,31 +89,25 @@ body {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: #495057;
-}
-
-.arabic-section .address h2 {
-    font-family: 'Noto Sans Arabic', sans-serif;
-    font-weight: 600;
+    color: #231F20;
 }
 
 .address p {
     font-size: 1.1rem;
-    color: #666;
+    color: #231F20;
     line-height: 1.8;
     max-width: 600px;
     margin: 0 auto;
 }
 
 .arabic-section .address p {
-    font-family: 'Noto Sans Arabic', sans-serif;
     font-size: 1.2rem;
     direction: rtl;
 }
 
 /* Footer */
 .footer {
-    background: #343a40;
+    background: #231F20;
     color: white;
     padding: 2rem 0;
     margin-top: auto;
@@ -125,7 +132,6 @@ body {
 }
 
 .legal-arabic {
-    font-family: 'Noto Sans Arabic', sans-serif;
     font-size: 0.9rem;
     opacity: 0.9;
     direction: rtl;
@@ -140,6 +146,10 @@ body {
     .header {
         padding: 2rem;
         margin: 1rem;
+    }
+    
+    .logo {
+        max-width: 250px;
     }
     
     .company-name {
@@ -175,6 +185,15 @@ body {
 @media (max-width: 480px) {
     .header {
         padding: 1.5rem;
+    }
+    
+    .logo {
+        max-width: 200px;
+    }
+    
+    .logo-container {
+        margin-bottom: 1.5rem;
+        padding-bottom: 1.5rem;
     }
     
     .company-name {
