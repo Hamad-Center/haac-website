@@ -59,6 +59,7 @@ body {
 }
 
 .company-name-arabic {
+    font-family: 'Tajawal', sans-serif;
     font-size: 3.2rem;
     font-weight: 700;
     color: #231F20;
@@ -73,6 +74,7 @@ body {
 }
 
 .slogan p {
+    font-family: 'Tajawal', sans-serif;
     font-size: 2rem;
     font-weight: 500;
     color: #f05d22;
@@ -114,6 +116,7 @@ body {
 }
 
 .address-arabic {
+    font-family: 'Tajawal', sans-serif;
     text-align: right;
 }
 
@@ -141,6 +144,10 @@ body {
     font-size: 0.85rem;
     opacity: 0.8;
     margin: 0.3rem 0;
+}
+
+.legal-arabic {
+    font-family: 'Tajawal', sans-serif;
 }
 
 /* Responsive Design */
